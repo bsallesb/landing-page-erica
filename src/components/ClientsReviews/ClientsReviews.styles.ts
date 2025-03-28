@@ -6,7 +6,7 @@ export const Content = styled.div`
   width: 100%;
   background: linear-gradient(to right, var(--primary-alt), var(--primary));
   border-radius: 10px;
-  padding-bottom: 40px;
+  padding-top: 40px;
   margin-bottom: 40px;
 
   > div {
@@ -101,13 +101,13 @@ export const ToothBox = styled.div`
 export const RateBox = styled.div`
   display: flex;
   justify-content: end;
-  margin-bottom: 5px;
+  margin-top: 35px;
   align-items: center;
 
   a {
     background-color: var(--light);
     padding: 10px 15px;
-    border-radius: 0 10px 0 10px;
+    border-radius: 10px 0 9px 0;
     color: var(--primary);
     font-weight: 800;
     text-decoration: none;

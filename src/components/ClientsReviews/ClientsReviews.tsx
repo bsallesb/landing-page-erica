@@ -58,15 +58,6 @@ const ClientsReviews: React.FC = () => {
     <section id="clients-reviews">
       <Container>
         <Content>
-          <RateBox>
-            <a
-              href="https://www.google.com/search?q=Dra+%C3%89rica+Sales+varginha&oq=Dra+%C3%89rica+Sales+varginha&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIHCAEQABjvBTIHCAIQABjvBTIHCAMQABjvBTIHCAQQABjvBTIHCAUQABjvBdIBCDUyOThqMGo3qAIIsAIB8QVFH0iEVbcF5w&sourceid=chrome&ie=UTF-8#lrd=0x94ca93b1337bb9b3:0x10e55aefb76a9ff4,3,,,,"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Me avalie clicando aqui {IconMap.RateReview}
-            </a>
-          </RateBox>
           <Title isTextWhite>O que os clientes dizem</Title>
           <Wrapper>
             <Swiper
@@ -106,6 +97,15 @@ const ClientsReviews: React.FC = () => {
               ))}
             </Swiper>
           </Wrapper>
+          <RateBox>
+            <a
+              href="https://www.google.com/search?q=Dra+%C3%89rica+Sales+varginha&oq=Dra+%C3%89rica+Sales+varginha&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIHCAEQABjvBTIHCAIQABjvBTIHCAMQABjvBTIHCAQQABjvBTIHCAUQABjvBdIBCDUyOThqMGo3qAIIsAIB8QVFH0iEVbcF5w&sourceid=chrome&ie=UTF-8#lrd=0x94ca93b1337bb9b3:0x10e55aefb76a9ff4,3,,,,"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Me avalie clicando aqui {IconMap.RateReview}
+            </a>
+          </RateBox>
         </Content>
       </Container>
     </section>
