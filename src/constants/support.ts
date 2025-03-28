@@ -7,7 +7,7 @@ export const supportData = [
       para definirmos o melhor plano de tratamento.`,
     id: 1,
     automaticMessage: `Olá, Dra. Érica, gostaria de saber mais sobre a faceta de resina e entender se esse é o 
-      tratamento ideal para mim. Poderia me explicar mais sobre os custos e o processo?`,
+tratamento ideal para mim. Poderia me explicar mais sobre os custos e o processo?`,
   },
   {
     title:
@@ -28,7 +28,7 @@ export const supportData = [
       ou excessiva, pode sim causar danos ao esmalte dental.`,
     id: 3,
     automaticMessage: `Olá, Dra. Érica, gostaria de saber mais sobre o clareamento dental, sua segurança e 
-      se ele é adequado para o meu caso.`,
+se ele é adequado para o meu caso.`,
   },
   {
     title: 'Todos os sisos precisam ser extraídos (removidos)?',
@@ -48,7 +48,7 @@ export const supportData = [
       realizados no consultório.`,
     id: 5,
     automaticMessage: `Olá, Dra. Érica, gostaria de saber mais sobre os tratamentos que a senhora realiza e entender 
-      qual seria o ideal para o meu caso.`,
+qual seria o ideal para o meu caso.`,
   },
   {
     title: 'Como é feito o implante dentário',
@@ -57,7 +57,7 @@ export const supportData = [
       uma prótese dental é fixada sobre o pino, restaurando tanto a função quanto a estética do sorriso.`,
     id: 6,
     automaticMessage: `Olá, Dra. Érica, gostaria de agendar uma consulta para avaliação de tratamentos relacionados 
-        a implantes dentários...`,
+a implantes dentários...`,
   },
   {
     title: 'O que é bruxismo e como ele afeta a saúde bucal?',
@@ -68,7 +68,7 @@ export const supportData = [
       procurar o dentista caso perceba algum desses sintomas.`,
     id: 7,
     automaticMessage: `Olá, Dra. Érica, estou sentindo dores na mandíbula e na cabeça. Gostaria de saber se esses 
-      sintomas podem estar relacionados ao bruxismo e agendar uma avaliação.`,
+sintomas podem estar relacionados ao bruxismo e agendar uma avaliação.`,
   },
   {
     title: 'A limpeza dentária precisa ser feita a cada 6 meses?',
@@ -88,6 +88,6 @@ export const supportData = [
       A escolha do tratamento ideal depende de uma avaliação clínica detalhada.`,
     id: 9,
     automaticMessage: `Olá, Dra. Érica, Gostaria de agendar uma consulta para saber mais sobre como deixar meus dentes 
-        mais alinhados sem ortodontia. Poderia me explicar mais sobre as opções de tratamento?`,
+mais alinhados sem ortodontia. Poderia me explicar mais sobre as opções de tratamento?`,
   },
 ];

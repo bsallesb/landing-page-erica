@@ -8,7 +8,7 @@ import { openGoogleMaps, openWaze, openWhatsApp } from '../../common';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Footer: React.FC = () => {
-  const message = '';
+  const message = 'Olá, Dra. Érica, gostaria de agendar uma consulta...';
 
   return (
     <Wrapper>

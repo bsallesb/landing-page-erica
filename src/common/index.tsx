@@ -1,9 +1,14 @@
 export const openWhatsApp = (number: number, text: string) => {
   const phoneNumber = number;
-  const message = encodeURIComponent(text);
+  const message = encodeURIComponent(text.replace(/\n/g, ' '));
   const url = `https://wa.me/${phoneNumber}?text=${message}`;
 
-  window.open(url, '_blank');
+  // Usando '_blank' mas sem deixar a aba em branco
+  const whatsappWindow = window.open(url, '_blank');
+
+  if (whatsappWindow) {
+    whatsappWindow.opener = null; // Impede que a aba de WhatsApp interaja com a aba original
+  }
 };
 
 export const openWaze = () => {
