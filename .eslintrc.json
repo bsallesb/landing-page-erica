@@ -1,0 +1,48 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "react-app",
+    "react-app/jest"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": true,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "print-width": 120,
+        "max-len": "off",
+        "tabWidth": 2,
+        "endOfLine": "auto"
+      }
+    ],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "max-len": ["error", { "code": 120 }],
+    "@typescript-eslint/no-unused-vars": ["warn"],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/ban-ts-comment": "warn"
+  }
+}
