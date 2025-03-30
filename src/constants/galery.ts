@@ -1,9 +1,9 @@
-import photoOne from '../assets/images/photo-one.jpeg';
-import photoTwo from '../assets/images/photo-two.jpeg';
-import photoThree from '../assets/images/photo-three.jpeg';
+import photoOne from '../assets/images/image-one.jpeg';
+import photoTwo from '../assets/images/image-two.jpeg';
+import photoThree from '../assets/images/image-three.jpeg';
 import photoFour from '../assets/images/photo-four.jpeg';
-import photoFive from '../assets/images/photo-five.jpeg';
-import photoSix from '../assets/images/photo-six.jpeg';
+import photoFive from '../assets/images/image-five.jpeg';
+import photoSix from '../assets/images/image-six.jpeg';
 import photoSeven from '../assets/images/photo-seven.jpeg';
 import photoEight from '../assets/images/photo-eight.jpeg';
 import photoNine from '../assets/images/photo-nine.jpeg';
@@ -20,6 +20,8 @@ import photoNineteen from '../assets/images/photo-nineteen.jpeg';
 import photoTwenty from '../assets/images/photo-twenty.jpeg';
 import photoTwentyOne from '../assets/images/photo-twenty-one.jpeg';
 import photoTwentyTwo from '../assets/images/photo-twenty-two.jpeg';
+import photoTwentyThree from '../assets/images/photo-twenty-three.jpeg';
+import photoTwentyFour from '../assets/images/photo-twenty-four.jpeg';
 
 export const photos = [
   {
@@ -130,6 +132,16 @@ export const photos = [
   {
     id: 22,
     img: photoTwentyTwo,
+    alt: 'photo',
+  },
+  {
+    id: 23,
+    img: photoTwentyThree,
+    alt: 'photo',
+  },
+  {
+    id: 24,
+    img: photoTwentyFour,
     alt: 'photo',
   },
 ];
