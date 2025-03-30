@@ -55,7 +55,7 @@ export const services = [
   },
   {
     id: 7,
-    label: 'Tratamento de Canal',
+    label: 'Tratamento de Canal - Endodontia',
     description: 'Restaure a saúde do seu dente de forma rápida e eficaz.',
     icon: rootCanal,
   },
@@ -86,13 +86,13 @@ export const services = [
   },
   {
     id: 12,
-    label: 'Extração Dentária (Exodontia)',
+    label: 'Extração Dentária - Exodontia',
     description: 'Elimine a dor e recupere seu sorriso com segurança.',
     icon: extraction,
   },
   {
     id: 13,
-    label: 'Aparelho Dental (Ortodontia)',
+    label: 'Aparelho Dental - Ortodontia',
     description: 'Alinhe seu sorriso com conforto e eficiência.',
     icon: dentalBraces,
   },

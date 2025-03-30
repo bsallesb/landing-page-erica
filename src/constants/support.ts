@@ -82,12 +82,11 @@ sintomas podem estar relacionados ao bruxismo e agendar uma avaliação.`,
   {
     title:
       'É possível deixar meus dentes mais alinhados sem usar aparelho ortodôntico?',
-    description: `Sim, existem alternativas à ortodontia para melhorar o alinhamento dos dentes. Entre elas, 
-      destacam-se as facetas de resina e as lentes de contato dental. Esses tratamentos podem melhorar a estética do
-      sorriso e proporcionar um alinhamento visual dos dentes, sem a necessidade de uso de aparelhos ortodônticos.
-      A escolha do tratamento ideal depende de uma avaliação clínica detalhada.`,
+    description: `O alinhamento dentário deve ser feito com aparelho ortodôntico, que pode ser o convencional ou os 
+    aparelhos invisíveis. No entanto, em casos de pequeno desalinhamento, às vezes é possível corrigi-lo com facetas
+    de resina ou cerâmica.`,
     id: 9,
-    automaticMessage: `Olá, Dra. Érica, Gostaria de agendar uma consulta para saber mais sobre como deixar meus dentes 
-mais alinhados sem ortodontia. Poderia me explicar mais sobre as opções de tratamento?`,
+    automaticMessage: `Olá, Dra. Érica, Gostaria de agendar uma consulta para saber mais sobre como alinhar meus 
+dentes. Poderia me explicar mais sobre as opções de tratamento?`,
   },
 ];

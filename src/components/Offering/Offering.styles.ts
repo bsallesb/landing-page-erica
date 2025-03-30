@@ -119,9 +119,9 @@ type CircleType = {
 
 export const Circle = styled.div<CircleType>`
   background: linear-gradient(to left, var(--primary), var(--primary-alt));
-  border-radius: 80px;
-  width: 80px;
-  height: 80px;
+  border-radius: 90px;
+  width: 90px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
