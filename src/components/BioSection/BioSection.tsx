@@ -33,11 +33,11 @@ const BioSection: React.FC = () => {
             objetivo é ajudá-lo a recuperar o sorriso dos seus sonhos, unindo
             estética e funcionalidade para que você se sinta bem consigo mesmo,
             tanto por dentro quanto por fora. Com especialização em Prótese e
-            Odontologia Estética, ofereço um atendimento personalizado, contando
-            com uma equipe de profissionais qualificados para garantir um
-            tratamento completo, seguro e de alta qualidade. Meu consultório,
-            localizado em Varginha/MG, está de portas abertas para acolhê-lo e
-            cuidar de você da melhor maneira possível.
+            ênfase em Odontologia Estética, ofereço um atendimento
+            personalizado, contando com uma equipe de profissionais qualificados
+            para garantir um tratamento completo, seguro e de alta qualidade.
+            Meu consultório, localizado em Varginha/MG, está de portas abertas
+            para acolhê-lo e cuidar de você da melhor maneira possível.
           </Paragraph>
         </Content>
         <Image src={bioPicture} alt="Fotografia da Dra. Érica Sales" />
