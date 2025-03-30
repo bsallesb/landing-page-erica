@@ -1,10 +1,8 @@
 import photoOne from '../assets/images/image-one.jpeg';
 import photoTwo from '../assets/images/image-two.jpeg';
 import photoThree from '../assets/images/image-three.jpeg';
-import photoFour from '../assets/images/photo-four.jpeg';
 import photoFive from '../assets/images/image-five.jpeg';
 import photoSix from '../assets/images/image-six.jpeg';
-import photoSeven from '../assets/images/photo-seven.jpeg';
 import photoEight from '../assets/images/photo-eight.jpeg';
 import photoNine from '../assets/images/photo-nine.jpeg';
 import photoTen from '../assets/images/photo-ten.jpeg';
@@ -40,11 +38,6 @@ export const photos = [
     alt: 'photo',
   },
   {
-    id: 4,
-    img: photoFour,
-    alt: 'photo',
-  },
-  {
     id: 5,
     img: photoFive,
     alt: 'photo',
@@ -52,11 +45,6 @@ export const photos = [
   {
     id: 6,
     img: photoSix,
-    alt: 'photo',
-  },
-  {
-    id: 7,
-    img: photoSeven,
     alt: 'photo',
   },
   {
