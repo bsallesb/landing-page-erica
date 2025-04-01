@@ -99,6 +99,7 @@ export const TopSection = styled.section`
 `;
 
 export const Icon = styled.a`
+  display: contents;
   cursor: pointer;
 
   svg {
