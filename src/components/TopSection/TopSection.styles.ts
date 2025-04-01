@@ -56,6 +56,10 @@ export const Section = styled.section<SectionType>`
   @media (max-width: 580px) {
     height: 835px;
   }
+
+  @media (max-width: 460px) {
+    height: 780px;
+  }
 `;
 
 export const Content = styled.div`
@@ -109,6 +113,10 @@ export const Paragraph = styled.h2`
 
   @media (max-width: 1068px) {
     font-size: 46px;
+  }
+
+  @media (max-width: 460px) {
+    font-size: 38px;
   }
 `;
 

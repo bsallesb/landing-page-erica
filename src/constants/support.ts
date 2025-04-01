@@ -64,8 +64,8 @@ a implantes dentários...`,
     description: `O bruxismo é um distúrbio caracterizado pelo ato involuntário de ranger ou apertar os dentes, 
       geralmente durante o sono (bruxismo do sono) ou até mesmo quando a pessoa está acordada (bruxismo de vigília).
   
-      Isso pode causar dor na ATM, dor de cabeça e desgaste dental. Por isso, é importante estar atento a esses sinais e
-      procurar o dentista caso perceba algum desses sintomas.`,
+      Isso pode causar dor na ATM (Articulação Temporomandibular), dor de cabeça e desgaste dental. Por isso, é
+      importante estar atento a esses sinais e procurar o dentista caso perceba algum desses sintomas.`,
     id: 7,
     automaticMessage: `Olá, Dra. Érica, estou sentindo dores na mandíbula e na cabeça. Gostaria de saber se esses 
 sintomas podem estar relacionados ao bruxismo e agendar uma avaliação.`,
