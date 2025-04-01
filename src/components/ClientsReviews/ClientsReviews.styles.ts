@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const Section = styled.section`
+  background-color: var(--light);
+`;
+
 export const Content = styled.div`
   display: flex;
   flex-direction: column;

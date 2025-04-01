@@ -6,6 +6,7 @@ type SectionType = {
 
 export const Section = styled.section<SectionType>`
   display: flex;
+  background-color: var(--light);
   background-image: ${({ image }) => `url(${image})`};
   background-size: cover;
   background-position: center left;

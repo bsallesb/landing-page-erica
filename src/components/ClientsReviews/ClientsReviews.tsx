@@ -16,6 +16,7 @@ import {
   Icon,
   ToothBox,
   RateBox,
+  Section,
 } from './ClientsReviews.styles';
 import Container from '../Container/Container';
 import Title from '../Title/Title';
@@ -55,7 +56,7 @@ const ClientsReviews: React.FC = () => {
   }, []);
 
   return (
-    <section id="clients-reviews">
+    <Section id="clients-reviews">
       <Container>
         <Content>
           <Title isTextWhite>O que os clientes dizem</Title>
@@ -108,7 +109,7 @@ const ClientsReviews: React.FC = () => {
           </RateBox>
         </Content>
       </Container>
-    </section>
+    </Section>
   );
 };
 
