@@ -7,7 +7,9 @@ export const openWhatsApp = (number: number, text: string) => {
   const whatsappWindow = window.open(url, '_blank');
 
   if (whatsappWindow) {
-    whatsappWindow.opener = null; // Impede que a aba de WhatsApp interaja com a aba original
+    setTimeout(() => {
+      whatsappWindow.close();
+    }, 1000); // Fecha a aba após 1 segundo (ajuste conforme necessário)
   }
 };
 
