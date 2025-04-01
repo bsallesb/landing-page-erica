@@ -1,12 +1,12 @@
 import styled, { css } from 'styled-components';
 
 type WrapperType = {
-  isOpen?: boolean;
+  $isOpen?: boolean;
 };
 
 export const Wrapper = styled.div<WrapperType>`
-  ${({ isOpen }) =>
-    isOpen &&
+  ${({ $isOpen }) =>
+    $isOpen &&
     css`
       background-color: var(--light);
       border-radius: 15px;
@@ -47,7 +47,7 @@ export const Paragraph = styled.div`
 `;
 
 type IconType = {
-  isOpen?: boolean;
+  $isOpen?: boolean;
 };
 
 export const Icon = styled.div<IconType>`
@@ -60,8 +60,8 @@ export const Icon = styled.div<IconType>`
   border-radius: 30px;
   transition: transform 0.3s ease-in-out;
 
-  ${({ isOpen }) =>
-    isOpen &&
+  ${({ $isOpen }) =>
+    $isOpen &&
     css`
       transform: rotate(180deg);
     `}

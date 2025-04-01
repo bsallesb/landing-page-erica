@@ -53,7 +53,7 @@ const Galery: React.FC = () => {
         >
           {photos.map((photo) => (
             <SwiperSlide key={photo.id}>
-              <Image img={photo.img} />
+              <Image $img={photo.img} />
             </SwiperSlide>
           ))}
         </Swiper>

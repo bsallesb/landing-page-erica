@@ -29,11 +29,11 @@ export const Content = styled.div`
 `;
 
 type ImageProps = {
-  img: string;
+  $img: string;
 };
 
 export const Image = styled.div<ImageProps>`
-  background-image: ${({ img }) => `url(${img})`};
+  background-image: ${({ $img }) => `url(${$img})`};
   background-size: cover;
   background-position: center center;
   height: 0;

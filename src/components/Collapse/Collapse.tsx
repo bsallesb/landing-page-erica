@@ -22,9 +22,9 @@ const Collapse: React.FC<CollapseProps> = ({ title, description, message }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <Wrapper isOpen={isOpen}>
+    <Wrapper $isOpen={isOpen}>
       <Content onClick={() => setIsOpen(!isOpen)}>
-        <Icon isOpen={isOpen}>{IconMap.plus}</Icon>
+        <Icon $isOpen={isOpen}>{IconMap.plus}</Icon>
         <span>{title}</span>
       </Content>
       {isOpen && (

@@ -27,13 +27,13 @@ export const RelativeContent = styled.div`
 `;
 
 type SectionType = {
-  image: string;
-  mobileImage: string;
+  $image: string;
+  $mobileImage: string;
 };
 
 export const Section = styled.section<SectionType>`
   display: flex;
-  background-image: ${({ image }) => `url(${image})`};
+  background-image: ${({ $image }) => `url(${$image})`};
   background-size: cover;
   background-position: center right;
   justify-content: space-between;
@@ -49,7 +49,7 @@ export const Section = styled.section<SectionType>`
   }
 
   @media (max-width: 960px) {
-    background-image: ${({ mobileImage }) => `url(${mobileImage})`};
+    background-image: ${({ $mobileImage }) => `url(${$mobileImage})`};
     height: 920px;
   }
 

@@ -21,8 +21,8 @@ const TopSection: React.FC = () => {
 
   return (
     <Section
-      image={backgroundPrimary}
-      mobileImage={mobileImage}
+      $image={backgroundPrimary}
+      $mobileImage={mobileImage}
       id="top-section"
     >
       <Container>

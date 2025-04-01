@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 type LabelProps = {
-  isTextWhite?: boolean;
+  $isTextWhite?: boolean;
 };
 
 export const Label = styled.h2<LabelProps>`
   font-size: 66px;
   font-weight: 800;
-  color: ${({ isTextWhite }) =>
-    isTextWhite ? 'var(--light)' : 'var(--primary)'};
+  color: ${({ $isTextWhite }) =>
+    $isTextWhite ? 'var(--light)' : 'var(--primary)'};
   text-align: center;
 
   span {

@@ -30,10 +30,10 @@ const Button: React.FC<IButtonProps> = ({
     <Action
       onClick={onClick}
       type={type}
-      shadow={shadow}
-      border={border}
+      $shadow={shadow}
+      $border={border}
       color={color}
-      animated={animated}
+      $animated={animated}
     >
       {icon && IconTag}
       <span>{label.toUpperCase()}</span>

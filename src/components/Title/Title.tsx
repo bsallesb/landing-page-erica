@@ -8,7 +8,7 @@ interface ITitleProps {
 }
 
 const Title: React.FC<ITitleProps> = ({ children, isTextWhite = false }) => {
-  return <Label isTextWhite={isTextWhite}>{children}</Label>;
+  return <Label $isTextWhite={isTextWhite}>{children}</Label>;
 };
 
 export default Title;

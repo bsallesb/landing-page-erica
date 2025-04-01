@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 type SectionType = {
-  image: string;
+  $image: string;
 };
 
 export const Section = styled.section<SectionType>`
   display: flex;
   background-color: var(--light);
-  background-image: ${({ image }) => `url(${image})`};
+  background-image: ${({ $image }) => `url(${$image})`};
   background-size: cover;
   background-position: center left;
   justify-content: space-between;

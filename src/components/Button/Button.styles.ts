@@ -1,17 +1,17 @@
 import styled, { css } from 'styled-components';
 
 type ActionProps = {
-  shadow?: boolean;
-  border?: 'rounded' | 'pill';
+  $shadow?: boolean;
+  $border?: 'rounded' | 'pill';
   color?: 'primary' | 'success';
-  animated?: boolean;
+  $animated?: boolean;
 };
 
 export const Action = styled.button<ActionProps>`
   color: var(--light);
   padding: 15px 20px;
   border: none;
-  border-radius: ${({ border }) => (border === 'pill' ? 40 : 20)}px;
+  border-radius: ${({ $border }) => ($border === 'pill' ? 40 : 20)}px;
   font-weight: 900;
   font-size: 20px;
   width: fit-content;
@@ -47,8 +47,8 @@ export const Action = styled.button<ActionProps>`
     transform: scale(1.05);
   }
 
-  ${({ shadow }) =>
-    shadow &&
+  ${({ $shadow }) =>
+    $shadow &&
     css`
       box-shadow: 3px 3px 8px var(--primary);
     `}
@@ -70,8 +70,8 @@ export const Action = styled.button<ActionProps>`
     }
   }
 
-  ${({ animated, color }) =>
-    animated &&
+  ${({ $animated }) =>
+    $animated &&
     css`
       animation: pulsar 1.5s infinite;
     `}

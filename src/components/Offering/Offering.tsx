@@ -36,7 +36,7 @@ const Offering: React.FC = () => {
   };
 
   return (
-    <Section image={serviceBackground} id="offering">
+    <Section $image={serviceBackground} id="offering">
       <Container>
         <Content>
           <Title isTextWhite>
@@ -66,7 +66,7 @@ const Offering: React.FC = () => {
               {services.map((service) => (
                 <SwiperSlide key={service.id}>
                   <Card>
-                    <Circle margin={service.label === 'Implante Dentário'}>
+                    <Circle $margin={service.label === 'Implante Dentário'}>
                       <img
                         src={service.icon}
                         alt="Icone de Clareamento"

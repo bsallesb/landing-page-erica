@@ -48,9 +48,11 @@ const ClientsReviews: React.FC = () => {
 
     return (
       <Fragment>
-        {Array.from({ length: totalStars }, (_, index) =>
-          index < stars ? IconMap.star : IconMap.emptyStar
-        )}
+        {Array.from({ length: totalStars }, (_, index) => (
+          <Fragment key={index}>
+            {index < stars ? IconMap.star : IconMap.emptyStar}
+          </Fragment>
+        ))}
       </Fragment>
     );
   }, []);

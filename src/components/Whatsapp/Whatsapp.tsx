@@ -11,7 +11,7 @@ const Whatsapp: React.FC = () => {
     'Olá, gostaria de agendar uma consulta. Poderia me informar as datas disponíveis?';
 
   return (
-    <Section image={whatsappBackground} id="whatsapp">
+    <Section $image={whatsappBackground} id="whatsapp">
       <Container>
         <Wrapper>
           <LabelContent>

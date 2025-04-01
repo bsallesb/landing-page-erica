@@ -1,13 +1,13 @@
 import styled, { css } from 'styled-components';
 
 type SectionType = {
-  image: string;
+  $image: string;
 };
 
 export const Section = styled.section<SectionType>`
   display: flex;
   position: sticky;
-  background-image: ${({ image }) => `url(${image})`};
+  background-image: ${({ $image }) => `url(${$image})`};
   background-size: cover;
   background-position: center right;
   margin-top: -20px;
@@ -114,7 +114,7 @@ export const Carrossel = styled.div`
 `;
 
 type CircleType = {
-  margin?: boolean;
+  $margin?: boolean;
 };
 
 export const Circle = styled.div<CircleType>`
@@ -131,8 +131,8 @@ export const Circle = styled.div<CircleType>`
     height: 50px;
     margin-bottom: 0;
 
-    ${({ margin }) =>
-      margin &&
+    ${({ $margin }) =>
+      $margin &&
       css`
         margin-left: 5px;
       `}
