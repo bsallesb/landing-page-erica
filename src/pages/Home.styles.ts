@@ -1,17 +1,19 @@
 import styled from 'styled-components';
 import backgroundTooth from '../assets/images/background-tooth.png';
 
-export const Main = styled.main`
+export const Main = styled.main``;
+
+export const Section = styled.section`
   background-image: url(${backgroundTooth});
-  background-size: 10%;
+  background-size: 8%;
   background-repeat: repeat;
-  padding-top: 103px;
+  height: 103px;
 
   @media (max-width: 700px) {
-    padding-top: 82.55px;
+    height: 82.55px;
   }
 
   @media (max-width: 600px) {
-    padding-top: 68.78px;
+    height: 68.78px;
   }
 `;

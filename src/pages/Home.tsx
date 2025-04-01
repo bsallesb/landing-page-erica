@@ -10,13 +10,14 @@ import Whatsapp from '../components/Whatsapp/Whatsapp';
 import ExploreSection from '../components/ExploreSection/ExploreSection';
 import Support from '../components/Support/Support';
 import Footer from '../components/Footer/Footer';
-import { Main } from './Home.styles';
+import { Main, Section } from './Home.styles';
 
 const Home: React.FC = () => {
   return (
     <Fragment>
       <Header />
       <Main>
+        <Section />
         <TopSection />
         <Offering />
         <Agreement />
